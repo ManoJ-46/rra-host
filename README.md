@@ -1,13 +1,13 @@
-# 📡 Radio Resource Allocation using Reinforcement Learning
+# Radio Resource Allocation using Reinforcement Learning
 
 A **Streamlit-powered web application** for simulating and analyzing **radio resource allocation** using **Markov Decision Processes (MDPs)** and **Reinforcement Learning (RL)**.  
 This platform integrates exact MDP solvers, abstraction techniques, and deep RL agents — all visualized interactively with 2D/3D plots.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🧩 Ground MDP Model
+### Ground MDP Model
 - Solves the **exact radio resource allocation** problem via **Value Iteration**.
 - Fully configurable:
   - Number of UEs (User Equipments)
@@ -18,7 +18,7 @@ This platform integrates exact MDP solvers, abstraction techniques, and deep RL 
 
 ---
 
-### 🔄 Abstract Model
+### Abstract Model
 - Generates **simplified abstractions** of the ground model for scalability.
 - Supported strategies:
   - **Uniform abstraction**
@@ -28,7 +28,7 @@ This platform integrates exact MDP solvers, abstraction techniques, and deep RL 
 
 ---
 
-### 🤖 Reinforcement Learning Agents
+### Reinforcement Learning Agents
 - Implements:
   - **HDDPG (Hybrid Deep Deterministic Policy Gradient)** — continuous control.
   - **DQN (Deep Q-Network)** — discrete control.
@@ -49,13 +49,13 @@ This platform integrates exact MDP solvers, abstraction techniques, and deep RL 
 
 ---
 
-### 📱 Responsive Interface
+### Responsive Interface
 - Optimized for **desktop and mobile** with adaptive CSS.
 - Ready for **Streamlit Cloud** deployment or local execution.
 
 ---
 
-## 🧠 Architecture Overview
+## Architecture Overview
 📂 app/
  ┣ 📜 app.py                    # Main Streamlit app (navigation & layout)
  ┣ 📂 src/
@@ -75,9 +75,9 @@ This platform integrates exact MDP solvers, abstraction techniques, and deep RL 
 
 
 
-## ⚙️ Installation
+## Installation
 
-### 🧾 Requirements
+### Requirements
 - Python ≥ 3.9  
 - PyTorch  
 - Streamlit  
@@ -85,7 +85,7 @@ This platform integrates exact MDP solvers, abstraction techniques, and deep RL 
 - NumPy, Pandas  
 - *(Optional)* Kaleido for PNG export
 
-### 🪜 Steps
+### Steps
 ```bash
 # Clone the repository
 git clone https://github.com/ManoJ-46/rra-host
