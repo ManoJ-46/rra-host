@@ -67,39 +67,39 @@ def main():
     page = st.sidebar.radio(
         "Select Page",
         [
-            "🏠 Home",
-            "🎯 Ground MDP Model",
-            "🔄 Abstract Model",
-            "🤖 HDDPG Training",
-            "🎮 DQN Training",
-            "📊 Model Comparison"
+            " Home",
+            " Ground MDP Model",
+            " Abstract Model",
+            " HDDPG Training",
+            " DQN Training",
+            " Model Comparison"
         ]
     )
     
     # Route to appropriate page
-    if page == "🏠 Home":
+    if page == " Home":
         show_home_page()
-    elif page == "🎯 Ground MDP Model":
+    elif page == " Ground MDP Model":
         ground_model_page.render()
-    elif page == "🔄 Abstract Model":
+    elif page == " Abstract Model":
         abstract_model_page.render()
-    elif page == "🤖 HDDPG Training":
+    elif page == " HDDPG Training":
         hddpg_page.render()
-    elif page == "🎮 DQN Training":
+    elif page == " DQN Training":
         dqn_page.render()
-    elif page == "📊 Model Comparison":
+    elif page == " Model Comparison":
         comparison_page.render()
 
 def show_home_page():
     """Display the home page"""
-    st.title("🌐 Radio Resource Allocation System")
+    st.title("Radio Resource Allocation System")
     st.markdown("### Welcome to the Comprehensive RL-based Resource Management Platform")
     
     col1, col2, col3 = st.columns(3)
     
     with col1:
         st.markdown("""
-        #### 🎯 Ground MDP Model
+        #### Ground MDP Model
         - **Purpose**: Solve the exact MDP for radio resource allocation
         - **Method**: Value iteration algorithm
         - **Features**: 
@@ -110,7 +110,7 @@ def show_home_page():
     
     with col2:
         st.markdown("""
-        #### 🔄 Abstract Model
+        #### Abstract Model
         - **Purpose**: Create simplified versions of the ground model
         - **Method**: State aggregation techniques
         - **Features**:
@@ -121,7 +121,7 @@ def show_home_page():
     
     with col3:
         st.markdown("""
-        #### 🤖 Deep RL Agents
+        #### Deep RL Agents
         - **HDDPG**: Continuous action space control
         - **DQN**: Discrete action space control
         - **Features**:
@@ -131,7 +131,7 @@ def show_home_page():
         """)
     
     st.markdown("---")
-    st.markdown("### 🚀 Getting Started")
+    st.markdown("### Getting Started")
     st.markdown("""
     1. **Ground MDP Model**: Configure and solve the exact MDP problem
     2. **Abstract Model**: Create and compare different abstraction strategies
@@ -142,7 +142,7 @@ def show_home_page():
     
     # System information
     st.markdown("---")
-    st.markdown("### 💻 System Information")
+    st.markdown("### System Information")
     col1, col2, col3 = st.columns(3)
     
     with col1:
@@ -159,3 +159,4 @@ def show_home_page():
 
 if __name__ == "__main__":
     main()
+
